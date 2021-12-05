@@ -1,5 +1,5 @@
 {
-  "name": "Library for OV5640 Auto Focus (ESP32 Camera)",
+  "name": "Library for OV5640 Auto Focus on ESP32 Camera",
   "keywords": "OV5640, OV5640AF, ESP32 Camera, ESP32CAM",
   "description": "Enables the autofocus function of the OV5640 on the ESP32.",
   "repository":
@@ -7,7 +7,7 @@
     "type": "git",
     "url": "https://github.com/0015/ESP32-OV5640-AF.git"
   },
-  "version": "0.1.0",
+  "version": "0.1.1",
   "frameworks": "arduino",
   "platforms": "*"
 }

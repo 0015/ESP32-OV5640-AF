@@ -4,7 +4,7 @@ To use the AF function of the OV5640 on the ESP32 AI-Thinker board, you need to 
 
 # Updates 
 
- - v0.1.0
+ - v0.1.1
     - Only Added CONTINUOUS AUTOFOCUS Mode
 
 # License
