@@ -4,9 +4,12 @@
 
 This library contains the necessary firmware and source code to enable the OV5640 autofocus mode on the ESP32.
 
+## Note
+Each manufacturer of OV5640 has slightly different specifications. Please check with your product first. The product I used is Waveshare's OV5640. https://www.waveshare.com/wiki/OV5640_Camera_Board_(C)
+
 ## Installation
 
-### ESP-32 Core Library
+### ESP32 Core Library
 You need to install the ESP32 core libraries.
 The install instructions for your specific OS are here:
 https://github.com/espressif/arduino-esp32
@@ -62,7 +65,7 @@ See the OV5640_Console_Test example for a more fully-featured example.
 ## Hardware Modification
 
 To use the AF function of the OV5640 on the ESP32 AI-Thinker board, you need to connect 3.3v to the last 24th pin(AF-VCC).
-I share what I've been working on.[You can also see how AF works.](https://youtu.be/922BWy3OOoQ)
+I share what I've been working on. [You can also see how AF works.](https://youtu.be/922BWy3OOoQ)
 
 <a href="https://youtu.be/922BWy3OOoQ">
 <img width="800" src="https://github.com/0015/ESP32-OV5640-AF/blob/main/misc/main.jpg">
